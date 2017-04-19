@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14E436DA9968BDDA688FC3FE /* Pods_TalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A85FC2475D95046BAC5D506B /* Pods_TalkUITests.framework */; };
+		6C735713760DD8A3250BCB96 /* Pods_TalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF59B261A33FBB66519E016 /* Pods_TalkTests.framework */; };
+		7CD1429DDDB023CCC03E0959 /* Pods_Talk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D99E5273A34DE0D345D39E /* Pods_Talk.framework */; };
 		F54315641E8496BC00B35009 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54315631E8496BC00B35009 /* AppDelegate.swift */; };
-		F54315661E8496BC00B35009 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54315651E8496BC00B35009 /* ViewController.swift */; };
 		F54315691E8496BC00B35009 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54315671E8496BC00B35009 /* Main.storyboard */; };
 		F543156B1E8496BC00B35009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F543156A1E8496BC00B35009 /* Assets.xcassets */; };
 		F543156E1E8496BC00B35009 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F543156C1E8496BC00B35009 /* LaunchScreen.storyboard */; };
 		F54315791E8496BC00B35009 /* TalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54315781E8496BC00B35009 /* TalkTests.swift */; };
 		F54315841E8496BC00B35009 /* TalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54315831E8496BC00B35009 /* TalkUITests.swift */; };
+		F54315921E8498D100B35009 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F54315911E8498D100B35009 /* GoogleService-Info.plist */; };
+		F54315961E84AC7800B35009 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54315951E84AC7800B35009 /* SignInViewController.swift */; };
+		F54315981E84AC9100B35009 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54315971E84AC9100B35009 /* SignUpViewController.swift */; };
+		F543159A1E84ACA600B35009 /* TalkHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54315991E84ACA600B35009 /* TalkHomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01A6A4553E9621AB7D880DEB /* Pods-TalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TalkTests/Pods-TalkTests.release.xcconfig"; sourceTree = "<group>"; };
+		0AF59B261A33FBB66519E016 /* Pods_TalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		319985B61A295980D39545A5 /* Pods-Talk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Talk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Talk/Pods-Talk.debug.xcconfig"; sourceTree = "<group>"; };
+		51D99E5273A34DE0D345D39E /* Pods_Talk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Talk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		993BB6DEC1E3C0F7BE96713C /* Pods-TalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TalkUITests/Pods-TalkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A85FC2475D95046BAC5D506B /* Pods_TalkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD46E3492B198472F931D49E /* Pods-TalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TalkTests/Pods-TalkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDBFC927D9DF728EA9D1B930 /* Pods-TalkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TalkUITests/Pods-TalkUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F54315601E8496BC00B35009 /* Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Talk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54315631E8496BC00B35009 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F54315651E8496BC00B35009 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F54315681E8496BC00B35009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F543156A1E8496BC00B35009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F543156D1E8496BC00B35009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,11 @@
 		F543157F1E8496BC00B35009 /* TalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54315831E8496BC00B35009 /* TalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkUITests.swift; sourceTree = "<group>"; };
 		F54315851E8496BC00B35009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54315911E8498D100B35009 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F54315951E84AC7800B35009 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		F54315971E84AC9100B35009 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F54315991E84ACA600B35009 /* TalkHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkHomeViewController.swift; sourceTree = "<group>"; };
+		F655902A09C9D455FC5F498D /* Pods-Talk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Talk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Talk/Pods-Talk.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CD1429DDDB023CCC03E0959 /* Pods_Talk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C735713760DD8A3250BCB96 /* Pods_TalkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E436DA9968BDDA688FC3FE /* Pods_TalkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3233415BF96A2C07FEE48228 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				319985B61A295980D39545A5 /* Pods-Talk.debug.xcconfig */,
+				F655902A09C9D455FC5F498D /* Pods-Talk.release.xcconfig */,
+				BD46E3492B198472F931D49E /* Pods-TalkTests.debug.xcconfig */,
+				01A6A4553E9621AB7D880DEB /* Pods-TalkTests.release.xcconfig */,
+				BDBFC927D9DF728EA9D1B930 /* Pods-TalkUITests.debug.xcconfig */,
+				993BB6DEC1E3C0F7BE96713C /* Pods-TalkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E51C58B8F45291FA3EC986A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51D99E5273A34DE0D345D39E /* Pods_Talk.framework */,
+				0AF59B261A33FBB66519E016 /* Pods_TalkTests.framework */,
+				A85FC2475D95046BAC5D506B /* Pods_TalkUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F54315571E8496BC00B35009 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +125,8 @@
 				F54315771E8496BC00B35009 /* TalkTests */,
 				F54315821E8496BC00B35009 /* TalkUITests */,
 				F54315611E8496BC00B35009 /* Products */,
+				3233415BF96A2C07FEE48228 /* Pods */,
+				5E51C58B8F45291FA3EC986A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +144,14 @@
 			isa = PBXGroup;
 			children = (
 				F54315631E8496BC00B35009 /* AppDelegate.swift */,
-				F54315651E8496BC00B35009 /* ViewController.swift */,
 				F54315671E8496BC00B35009 /* Main.storyboard */,
 				F543156A1E8496BC00B35009 /* Assets.xcassets */,
 				F543156C1E8496BC00B35009 /* LaunchScreen.storyboard */,
 				F543156F1E8496BC00B35009 /* Info.plist */,
+				F54315911E8498D100B35009 /* GoogleService-Info.plist */,
+				F54315951E84AC7800B35009 /* SignInViewController.swift */,
+				F54315971E84AC9100B35009 /* SignUpViewController.swift */,
+				F54315991E84ACA600B35009 /* TalkHomeViewController.swift */,
 			);
 			path = Talk;
 			sourceTree = "<group>";
@@ -132,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F54315881E8496BC00B35009 /* Build configuration list for PBXNativeTarget "Talk" */;
 			buildPhases = (
+				76FBBBD6522FDEB4A65316E3 /* [CP] Check Pods Manifest.lock */,
 				F543155C1E8496BC00B35009 /* Sources */,
 				F543155D1E8496BC00B35009 /* Frameworks */,
 				F543155E1E8496BC00B35009 /* Resources */,
+				5ADC602B32AFB014D7ED9E45 /* [CP] Embed Pods Frameworks */,
+				FA41C570BC7A50E5D4F6183B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F543158B1E8496BC00B35009 /* Build configuration list for PBXNativeTarget "TalkTests" */;
 			buildPhases = (
+				D9A9A9EA3FD2274DEC782CC8 /* [CP] Check Pods Manifest.lock */,
 				F54315701E8496BC00B35009 /* Sources */,
 				F54315711E8496BC00B35009 /* Frameworks */,
 				F54315721E8496BC00B35009 /* Resources */,
+				9271D074F3D884F33EF1F9B3 /* [CP] Embed Pods Frameworks */,
+				C375594D71E82941D4449F0C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F543158E1E8496BC00B35009 /* Build configuration list for PBXNativeTarget "TalkUITests" */;
 			buildPhases = (
+				E4291F966EBDB6A12AB2E415 /* [CP] Check Pods Manifest.lock */,
 				F543157B1E8496BC00B35009 /* Sources */,
 				F543157C1E8496BC00B35009 /* Frameworks */,
 				F543157D1E8496BC00B35009 /* Resources */,
+				6D13079FE877575D3D6CC171 /* [CP] Embed Pods Frameworks */,
+				3240951BE8A89EEDAB881BD2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F543156E1E8496BC00B35009 /* LaunchScreen.storyboard in Resources */,
+				F54315921E8498D100B35009 /* GoogleService-Info.plist in Resources */,
 				F543156B1E8496BC00B35009 /* Assets.xcassets in Resources */,
 				F54315691E8496BC00B35009 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +313,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3240951BE8A89EEDAB881BD2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TalkUITests/Pods-TalkUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5ADC602B32AFB014D7ED9E45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Talk/Pods-Talk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D13079FE877575D3D6CC171 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TalkUITests/Pods-TalkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76FBBBD6522FDEB4A65316E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9271D074F3D884F33EF1F9B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TalkTests/Pods-TalkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C375594D71E82941D4449F0C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TalkTests/Pods-TalkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9A9A9EA3FD2274DEC782CC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4291F966EBDB6A12AB2E415 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA41C570BC7A50E5D4F6183B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Talk/Pods-Talk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F543155C1E8496BC00B35009 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F54315661E8496BC00B35009 /* ViewController.swift in Sources */,
+				F54315981E84AC9100B35009 /* SignUpViewController.swift in Sources */,
+				F54315961E84AC7800B35009 /* SignInViewController.swift in Sources */,
 				F54315641E8496BC00B35009 /* AppDelegate.swift in Sources */,
+				F543159A1E84ACA600B35009 /* TalkHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +609,7 @@
 		};
 		F54315891E8496BC00B35009 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 319985B61A295980D39545A5 /* Pods-Talk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Talk/Info.plist;
@@ -422,6 +622,7 @@
 		};
 		F543158A1E8496BC00B35009 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F655902A09C9D455FC5F498D /* Pods-Talk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Talk/Info.plist;
@@ -434,6 +635,7 @@
 		};
 		F543158C1E8496BC00B35009 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD46E3492B198472F931D49E /* Pods-TalkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +650,7 @@
 		};
 		F543158D1E8496BC00B35009 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01A6A4553E9621AB7D880DEB /* Pods-TalkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +665,7 @@
 		};
 		F543158F1E8496BC00B35009 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDBFC927D9DF728EA9D1B930 /* Pods-TalkUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TalkUITests/Info.plist;
@@ -475,6 +679,7 @@
 		};
 		F54315901E8496BC00B35009 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 993BB6DEC1E3C0F7BE96713C /* Pods-TalkUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TalkUITests/Info.plist;
@@ -505,6 +710,7 @@
 				F543158A1E8496BC00B35009 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F543158B1E8496BC00B35009 /* Build configuration list for PBXNativeTarget "TalkTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +719,7 @@
 				F543158D1E8496BC00B35009 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F543158E1E8496BC00B35009 /* Build configuration list for PBXNativeTarget "TalkUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +728,7 @@
 				F54315901E8496BC00B35009 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
